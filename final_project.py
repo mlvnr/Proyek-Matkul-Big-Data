@@ -119,7 +119,7 @@ elif menu == "Lihat Data Statistik":
     image_list = ["chart1.jpg", "chart2.jpg", "chart3.jpg","chart4.jpg", "chart5.jpg", "chart6.jpg",  "chart7.jpg"]  
 
     for img in image_list:
-        st.image(img, use_column_width=True, caption=f"Gambar: {img}")
+        st.image(img, use_container_width=True, caption=f"Gambar: {img}")
 
 
 # ===============================
