@@ -25,7 +25,7 @@ menu = st.sidebar.selectbox("Pilih Menu", ["Home", "Lihat Data Statistik", "Chat
 # ===============================
 @st.cache_data
 def load_data():
-    return pd.read_csv(r"C:\Users\amand\Jupyter\Big Data\df_comment1.csv")
+    return pd.read_csv(r"df_comment1.csv")
 
 @st.cache_resource
 def init_chain_with_memory(df):
